@@ -6,8 +6,8 @@ $(document).ready(function(){
     $('body').removeClass('claro')
     $('body').removeClass('escuro')
     $('body').addClass('original')
-    $('p').removeClass('text-dark')
-    $('p').addClass('text-white')
+    $('p').removeClass('text-white')
+    $('p').addClass('text-dark')
   })
 
   $('.btn-escuro').click(function(escuro){
