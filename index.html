@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receitas_D.Maki</title>
+ <link href="css/bootstrap.css" rel="stylesheet"/>
+ <link href="style.css" rel="stylesheet"/>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+ <link rel="favicon" href="image/img72.png">
+  <link rel="manifest" href="manifest.json">
+
+</head>
+<body class="original">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-roxo">
+
+    <a class="navbar-brand text-white" href="#">Receitas<strong>D.Maki</strong>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+
+      <ul class="navbar-nav mr-auto">
+
+        <li>
+          <a href="home"><i class="fas fa-home"></i> Home</a>
+        </li>
+
+        <li>
+          <a href="teste"><i class="fas fa-candy-cane"></i>Doce</a>
+        
+          <ul>
+
+            <li><a id="aviso" data-toggle="modal" data-target="#exampleModal" href="doce">Bolos</a></li>
+
+            <li><a id="aviso" data-toggle="modal" data-target="#exampleModal" href="doce">Chocolate</a></li>
+
+            <li><a id="aviso" data-toggle="modal" data-target="#exampleModal" href="doce">Biscoitos</a></li>
+
+            <li><a id="aviso" data-toggle="modal" data-target="#exampleModal" href="doce">Faceis de fazer</a></li>
+
+          </ul>
+
+        </li>
+
+        <li>
+          <a href="teste"><i class="fas fa-hotdog"></i>Salgado</a>
+        
+          <ul class="cima">
+
+            <li><a data-toggle="modal" data-target="#exampleModal" href="salgado">Saladas</a></li>
+
+            <li><a data-toggle="modal" data-target="#exampleModal" href="salgado">Massas</a></li>
+
+            <li><a data-toggle="modal" data-target="#exampleModal" href="salgado">Lanches</a></li>
+
+            <li><a data-toggle="modal" data-target="#exampleModal" href="salgado">Faceis de fazer</a></li>
+
+          </ul>
+        
+        </li>
+
+        <li>
+          <a data-toggle="modal" data-target="#exampleModal" href="contato"><i class="fas fa-mail-bulk"></i>Contato</a>
+        </li>
+
+        <li>
+          <a data-toggle="modal" data-target="#exampleModal" href="cadastro"><i class="fas fa-address-card"></i>Cadastre-se</a>
+        </li>
+
+        <li>
+          <a href="teste"><i class="fas fa-user"></i>User</a>
+
+          <ul class="cima">
+
+            <li><a data-toggle="modal" data-target="#exampleModal" href="email">Email</a></li>
+
+            <li><a href="teste">Fundo</a>
+              <ul>
+                
+                <li class="btn-original">Original</li>
+                <li class="btn-escuro">Black</li>
+                <li class="btn-claro">Light</li>
+
+              </ul>
+            </li>
+            <li><a data-toggle="modal" data-target="#exampleModal" href="sair">Sair</a></li>
+
+          </ul>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+  </nav>
+
+
+
+
+
+  <div class="jumbotron jumbotron-fluid bg-fundo-topo mx-auto">
+
+    <div class="container">
+
+      <div id="slideshow" class="mx-auto">
+        
+        <div class="col-10 col-sm-5 col-md-12 mt-4">
+          <img src="img/icon.png" class="rounded mx-auto d-block"> 
+        </div>
+
+        <div class="hidden col-10 col-sm-5 col-md-12 mt-4">
+          <img src="img/brevidade3.jpg"/>
+        </div>
+
+        <div class="hidden col-10 col-sm-5 col-md-12 mt-4">
+          <img src="img/bolo.jpg"/>
+        </div>
+
+        <div class="hidden col-10 col-sm-5 col-md-12 mt-4">
+          <img src="img/macarons.jpg"/>
+        </div>
+
+      </div>
+  
+    </div>
+
+  </div>
+
+
+  <br>
+  <br>
+  <br>
+
+
+  <div class="row mt-3 mt-sm-4 mt-md-3">
+    <div class="col-12">
+      <h1 class="text-roxo text-center">Novidades:</h1>
+      <br>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-10 col-sm-6 col-md-6">
+
+      <div class="row mt-3 mt-sm-1 mt-md-1">
+
+        <div class="col-12 col-sm-6 col-md-6 mt-3">
+
+          <h4 class="text-rosa ml-5">Coxinha de Frango</h4>
+
+          <p class="text-justify text-novidade ml-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ducimus fuga at sunt eligendi, veritatis veniam est animi laborum delectus quam quo, alias officia soluta. Dolore sapiente dignissimos exercitationem vitae.</p>
+
+          <a id="aviso" href="receita">   
+            <button type="button" class="btn btn-personal ml-5" data-toggle="modal" data-target="#exampleModal">Receita</button>
+          </a>
+
+        </div>
+
+        <div class="col-10 col-sm-5 col-md-5 mt-4 d-none d-sm-block">
+          <img class="img-fluid rounded float-start"" src="img/coxinha.jpg" alt="Coxinha">
+        </div>
+
+      </div>
+        
+    </div>
+
+    
+    <div class="col-10 col-sm-6 col-md-6">
+
+      <div class="row mt-3 mt-sm-1 mt-md-1">
+
+        <div class="col-12 col-sm-6 col-md-6 mt-4">
+
+          <h4 class="text-rosa ml-5">Bolo de Chocolate</h4>
+
+          <p class="text-justify text-novidade ml-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque saepe minus nobis voluptates cum tenetur vel unde, beatae, nam quisquam numquam illum quam, omnis reprehenderit ducimus! Perspiciatis, distinctio tempore? Ab.</p>
+
+          <a id="aviso" href="receita">   
+            <button type="button" class="btn btn-personal ml-5" data-toggle="modal" data-target="#exampleModal">Receita</button>
+          </a>
+
+        </div>
+
+        <div class="col-9 col-sm-5 col-md-5 mt-4 d-none d-sm-block">
+          <img class="img-fluid rounded float-end" src="img/bolo.jpg" alt="Bolo-chocolate">
+        </div>
+
+      </div>
+        
+    </div>
+
+  </div>
+
+  </br>
+  </br>
+  </br>
+
+
+  <div class="row mt-3 mt-sm-4 mt-md-3">
+    <div class="col-12">
+      <h1 class="text-roxo text-center">Populares:</h1>
+      <br>
+    </div>
+  </div>
+
+  <div class="row">
+    
+    <div class="col-10 col-sm-6 col-md-6">
+
+      <div class="row mt-3 mt-sm-1 mt-md-1">
+
+        <div class="col-12 col-sm-6 col-md-6 mt-3">
+          
+          <h4 class="text-rosa ml-5">Brevidade</h4>
+              
+          <p class="text-justify text-novidade ml-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe impedit harum fugit sequi fuga nulla officiis, magni sunt dolore, perferendis quasi numquam fugiat exercitationem ipsum mollitia molestiae quis. Reiciendis, dolor?</p>
+
+          <a id="aviso" href="receita">   
+            <button type="button" class="btn btn-personal ml-5" data-toggle="modal" data-target="#exampleModal">Receita</button>
+          </a>
+        
+        </div>
+
+        <div class="col-10 col-sm-5 col-md-5 mt-4 d-none d-sm-block">
+          <img class="img-fluid rounded float-start"" src="img/brevidade2.jpg" alt="Brevidade">
+        </div>
+      
+      </div>
+        
+    </div>
+
+    <div class="col-10 col-sm-6 col-md-6">
+
+      <div class="row mt-3 mt-sm-1 mt-md-1">
+            
+        <div class="col-12 col-sm-6 col-md-6 mt-3">
+              
+          <h4 class="text-rosa ml-5">Macarons</h4>
+              
+          <p class="text-justify text-novidade ml-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, est praesentium! Porro sequi recusandae, blanditiis adipisci totam iste, cumque repudiandae autem quo deleniti, eius nihil. Aliquid numquam pariatur obcaecati magni?</p>
+
+          <a id="aviso" href="receita">   
+            <button type="button" class="btn btn-personal ml-5" data-toggle="modal" data-target="#exampleModal">Receita</button>
+          </a>
+
+        </div>
+            
+        <div class="col-11 col-sm-5 col-md-5 mt-4 d-none d-sm-block">
+          <img class="img-fluid rounded float-end" src="img/macarons.jpg" alt="Macarons">
+        </div>
+
+      </div>
+        
+    </div>
+
+  </div>
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered" role="document">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+          
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+      
+        </div>
+      
+        <div class="modal-body text-center text-assunto">
+          ...
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-personal" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+  <br>
+    
+
+  <div class="conteiner-fluid mt-2 bg-roxo">
+
+
+    <div class="row mt-5">
+
+      <div class="w-75 p-3 col-12 offset-sm-2 col-sm-1 offset-md-2 col-md-1 mt-4 ">
+        <img class="img-fluid" src="img/icon.png" alt="Receitas_D.Maki">
+      </div>
+
+      <div class="col-12 col-sm-4 col-md-4 mt-3">
+
+        <h4 class="text-center text-white">Mapa do site</h4>
+
+        <br>
+      
+        <center>
+        <div>
+          <li>
+            <a href="home"><i class="fas fa-home"></i> Home</a>
+          </li>
+
+          <li>
+            <a id="aviso" data-toggle="modal" data-target="#exampleModal" href="doce"><i class="fas fa-candy-cane"></i>Doce</a>
+          </li>
+
+          <li>
+            <a data-toggle="modal" data-target="#exampleModal" href="salgado"><i class="fas fa-hotdog"></i>Salgado</a>
+          </li>
+
+          <li>
+            <a data-toggle="modal" data-target="#exampleModal" href="contato"><i class="fas fa-mail-bulk"></i>Contato</a>
+          </li>
+
+          <li>
+            <a data-toggle="modal" data-target="#exampleModal" href="cadastro"><i class="fas fa-address-card"></i>Cadastre-se</a>
+          </li>
+
+        </div>
+        </center>
+
+        <br>
+      
+      </div>
+
+      
+      <div class="col-12 col-sm-4 col-md-4 mt-3">
+
+        <h4 class="text-center text-white">Redes sociais</h4>
+        <h4 class="text-center text-white">Desenvolvedora</h4>
+
+        <br>
+
+          <p class="text-center">
+
+            <a href="insta">
+              <i class="fab fa-instagram-square icon-rede-social"></i>
+            </a>
+
+            <a href="face">
+              <i class="fab fa-facebook-square icon-rede-social"></i>
+            </a>
+
+            <a data-toggle="modal" data-target="#exampleModal" href="whats">
+              <i class="fab fa-whatsapp-square icon-rede-social"></i>
+            </a>
+
+          </p> 
+          
+        </div>
+
+    </div>
+
+      <br>
+      <br>
+    
+  </div>
+  
+
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/fundo.js"></script>
+  <script src="js/botao.js"></script>
+  <script src="js/mensagem.js"></script>
+  <script src="js/carrosel.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="script.js"></script>
+
+
+  
+</body>
+</html>
