@@ -13,19 +13,6 @@ $(document).ready(function(){
       case 'home':
         $(location).attr('href', 'index.html');
       break
-      case 'teste':
-        $('.modal-title').append('Doce')
-        $('.modal-body').append(`
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-sm-8 col-md-8">
-                <h4 class="text-center text-danger">Doce</h4>
-                <p>Por enquanto não possui nada nessa página</p>
-              </div>
-            </div>
-          </div>
-        `)
-      break
       case 'doce':
         $('.modal-title').append('Doce')
         $('.modal-body').append(`
@@ -78,26 +65,13 @@ $(document).ready(function(){
           </div>
         `)
       break
-      case 'email':
-        $('.modal-title').append('Email')
+      case 'user':
+        $('.modal-title').append('User')
         $('.modal-body').append(`
           <div class="container">
             <div class="row">
               <div class="col-12 col-sm-8 col-md-8">
-                <h4 class="text-center text-titulo">Email</h4>
-                <p>Por enquanto não possui nada nessa página</p>
-              </div>
-            </div>
-          </div>
-        `)
-      break
-      case 'sair':
-        $('.modal-title').append('Sair')
-        $('.modal-body').append(`
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-sm-8 col-md-8">
-                <h4 class="text-center text-titulo">Sair</h4>
+                <h4 class="text-center text-titulo">User</h4>
                 <p>Por enquanto não possui nada nessa página</p>
               </div>
             </div>
